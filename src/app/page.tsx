@@ -260,13 +260,13 @@ const AboutSection = () => {
         <div className="flex flex-col md:flex-row gap-8">
           <div className="md:w-1/2 text-white">
             <p className="text-lg mb-4">
-              Fundado em 2010 pelo Mestre Iuri Marcos, o CT Império Jiu-Jitsu nasceu com a missão de transformar vidas através do Jiu-Jitsu brasileiro. O que começou como um pequeno espaço com apenas alguns alunos, hoje é um dos centros de treinamento mais respeitados do Brasil.
+              Fundado em 2010 pelo Mestre Iuri Marcos, o CT Império Jiu-Jitsu nasceu com a missão de transformar vidas através do Jiu-Jitsu brasileiro. O que começou como um pequeno espaço com apenas alguns alunos, hoje é um dos centros de treinamento mais respeitados de Sergipe.
             </p>
             <p className="text-lg mb-4">
-              Nossa filosofia se baseia não apenas na formação de lutadores, mas também de cidadãos. Acreditamos que o Jiu-Jitsu é muito mais que uma arte marcial - é um caminho para o desenvolvimento físico, mental e espiritual.
+              Nossa filosofia se baseia não apenas na formação de lutadores, mas também de cidadãos. Acreditamos que o Jiu-Jitsu é muito mais que uma arte marcial, é um caminho para o desenvolvimento físico, mental e espiritual.
             </p>
             <p className="text-lg">
-              Ao longo destes anos, formamos dezenas de campeões em competições nacionais e internacionais, mas nosso maior orgulho está nas histórias de superação e crescimento pessoal de cada aluno que passou pelos nossos tatames.
+              Ao longo destes anos, formamos campeões em competições, mas nosso maior orgulho está nas histórias de superação e crescimento pessoal de cada aluno que passou pelos nossos tatames.
             </p>
           </div>
           <div className="md:w-1/2 flex justify-center">
@@ -404,23 +404,23 @@ export default function ImperioJiuJitsuApp() {
   // Dados dos atletas
   const athletes: Athlete[] = [
     {
-      name: "Carlos Silva",
-      image: "/atletas/carlos.jpg",
+      name: "Gabriel Silva",
+      image: "/img/nikolasMedalhas.jpeg",
       achievements: "Campeão Mundial 2023, Medalha de Ouro IBJJF"
     },
     {
-      name: "Ana Oliveira",
-      image: "/atletas/ana.jpg",
+      name: "Robisson Filho",
+      image: "/img/nikolasMedalhas.jpeg",
       achievements: "Bicampeã Brasileira, Medalha de Prata Pan-Americano"
     },
     {
-      name: "Pedro Santos",
-      image: "/atletas/pedro.jpg",
+      name: "Felipe Souza",
+      image: "/img/nikolasMedalhas.jpeg",
       achievements: "Campeão Estadual, 3x Campeão Regional"
     },
     {
-      name: "Mariana Costa",
-      image: "/atletas/mariana.jpg",
+      name: "ketilly seila",
+      image: "/img/nikolasMedalhas.jpeg",
       achievements: "Campeã Sul-Americana, Medalha de Ouro CBJJ"
     },
     {
