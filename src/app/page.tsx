@@ -324,37 +324,37 @@ const ContactSection = () => {
           desde iniciantes até competidores experientes.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
-          <div className="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm">
-            <div className="flex items-center justify-center mb-4">
-              <Clock className="text-white mr-2" size={24} />
-              <h3 className="text-2xl font-bold text-white">Horários</h3>
-            </div>
-            <ul className="text-left space-y-2 text-gray-200">
-              <li><strong>Segunda a Sexta:</strong> 6h às 22h</li>
-              <li><strong>Sábados:</strong> 9h às 13h</li>
-              <li><strong>Kids (6-12 anos):</strong> 17h às 18h</li>
-              <li><strong>Turma Feminina:</strong> 19h às 20h</li>
-              <li><strong>Competição:</strong> 20h às 22h</li>
-            </ul>
-          </div>
-          <div className="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm">
-            <div className="flex items-center justify-center mb-4">
-              <MapPin className="text-white mr-2" size={24} />
-              <h3 className="text-2xl font-bold text-white">Localização</h3>
-            </div>
-            <div className="text-left text-gray-200">
-              <p className="mb-4">
-                Av. Principal, 1000 - Centro<br />
-                São Paulo - SP<br />
-                CEP: 01000-000
-              </p>
-              <p>
-                <strong>Telefone:</strong> (11) 99999-9999<br />
-                <strong>Email:</strong> contato@imperiojiujitsu.com.br
-              </p>
-            </div>
-          </div>
-        </div>
+  <div className="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm">
+    <div className="flex items-center justify-center mb-4">
+      <Clock className="text-black mr-2" size={24} />
+      <h3 className="text-2xl font-bold text-black">Horários</h3>
+    </div>
+    <ul className="text-left space-y-2 text-black">
+      <li><strong>Jiu-Jitsu</strong> Segunda e Quarta: 10h, 14h, 20h</li>
+      <li><strong>Jiu-Jitsu</strong> Sexta: 8h, 14h, 20h</li>
+      <li><strong>Judô:</strong> Terça 20:30h</li>
+      <li><strong>No Gi:</strong> Quinta: 20:30h</li>
+      <li><strong>Kids:</strong> Terça e Quinta às 19h</li>     
+    </ul>
+  </div>
+  <div className="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm">
+    <div className="flex items-center justify-center mb-4">
+      <MapPin className="text-black mr-2" size={24} />
+      <h3 className="text-2xl font-bold text-black">Localização</h3>
+    </div>
+    <div className="text-left text-black">
+      <p className="mb-4">
+        Av. Rosemary Vieira de Jesus, 39 - Marcos Freire II<br />
+        Nossa Senhora do Socorro - SE<br />
+        CEP: 49160-000
+      </p>
+      <p>
+        <strong>Telefone:</strong> (79) 98808-8866<br /> 
+      </p>
+    </div>
+  </div>
+</div>
+
         <button 
           onClick={openWhatsApp}
           className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-10 rounded-full text-xl transition-all flex items-center mx-auto shadow-lg hover:shadow-xl transform hover:scale-105"
