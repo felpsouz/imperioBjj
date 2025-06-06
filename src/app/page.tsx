@@ -433,34 +433,34 @@ export default function ImperioJiuJitsuApp() {
   // Dados das conquistas
   const achievements: Achievement[] = [
     {
-      title: "Campeonato Brasileiro 2023",
-      date: "Dezembro 2023",
+      title: "Liga Sergipana 2024",
+      //date: "Dezembro 2023",
       description: "5 medalhas de ouro, 3 de prata e 7 de bronze, conquistando o 1º lugar geral por equipes."
     },
     {
-      title: "IBJJF Open 2023",
-      date: "Outubro 2023",
+      title: "Circuito Sergipano 2024",
+      //date: "Outubro 2023",
       description: "Participação de 12 atletas com 8 pódios, destacando a força da nossa equipe."
     },
     {
-      title: "Campeonato Pan-Americano",
-      date: "Julho 2023",
+      title: "Copa Pódio",
+      //date: "Julho 2023",
       description: "Representação internacional com 3 atletas medalhistas, elevando o nome do Brasil."
     },
     {
-      title: "Campeonato Estadual 2023",
-      date: "Maio 2023",
+      title: "Copa Tuchê",
+      //date: "Maio 2023",
       description: "Domínio absoluto com 15 medalhas e título de melhor equipe do torneio."
     },
     {
-      title: "Copa Kids 2023",
-      date: "Abril 2023",
+      title: "Circuito Alagoano",
+      //date: "Abril 2023",
       description: "Formação de novos talentos com 10 crianças medalhistas na competição."
     },
     {
-      title: "Torneio Masters",
-      date: "Fevereiro 2023",
-      description: "Nossos veteranos mostrando experiência com 7 medalhas conquistadas."
+      title: "Norte Nordeste",
+      //date: "Fevereiro 2023,
+      description: "5 medalhas de ouro, 3 de prata e 7 de bronze, conquistando o 1º lugar geral por equipes."
     }
   ];
 
