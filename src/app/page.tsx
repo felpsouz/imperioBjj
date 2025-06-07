@@ -419,7 +419,7 @@ export default function ImperioJiuJitsuApp() {
       achievements: "Gué"
     },
     {
-      name: "ketilly seila",
+      name: "ketilly fontes",
       image: "/img/graduacao03.jpeg",
       achievements: "Atual campeã categoria branca leve"
     },
