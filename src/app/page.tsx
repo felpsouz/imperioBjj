@@ -435,7 +435,7 @@ export default function ImperioJiuJitsuApp() {
     {
       title: "Liga Sergipana 2024",
       //date: "Dezembro 2023",
-      description: "5 medalhas de ouro, 3 de prata e 7 de bronze, conquistando o 1º lugar geral por equipes."
+      description: "Foram 4 etapas, 9 atletas participando, 22 medalhas. 17 de ouro, 3 de prata e 2 de bronze"
     },
     {
       title: "Circuito Sergipano 2024",
@@ -445,7 +445,7 @@ export default function ImperioJiuJitsuApp() {
     {
       title: "Copa Pódio",
       //date: "Julho 2023",
-      description: "Representação internacional com 3 atletas medalhistas, elevando o nome do Brasil."
+      description: "Com 100% de aproveitamento, todos os atletas participantes garantiram o primeiro lugar no pódio."
     },
     {
       title: "Copa Tuchê",
@@ -453,9 +453,9 @@ export default function ImperioJiuJitsuApp() {
       description: "Domínio absoluto com 15 medalhas e título de melhor equipe do torneio."
     },
     {
-      title: "Circuito Alagoano",
+      title: "Circuito Alagoano 2024",
       //date: "Abril 2023",
-      description: "Formação de novos talentos com 10 crianças medalhistas na competição."
+      description: "Três atletas saíram para realizar o sonho de competir fora do estado e trouxeram medalhas de ouro em suas bagagens."
     },
     {
       title: "Norte Nordeste",
