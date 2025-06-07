@@ -98,7 +98,7 @@ const AthleteCarousel = ({ athletes }: { athletes: Athlete[] }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % athletes.length);
-    }, 5000);
+    }, 6000);
     
     return () => clearInterval(interval);
   }, [athletes.length]);
