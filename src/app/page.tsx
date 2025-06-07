@@ -405,28 +405,28 @@ export default function ImperioJiuJitsuApp() {
   const athletes: Athlete[] = [
     {
       name: "Gabriel Silva",
-      image: "/img/nikolasMedalhas.jpeg",
-      achievements: "Campeão Mundial 2023, Medalha de Ouro IBJJF"
+      image: "/img/gabrielMedalha.png",
+      achievements: "Atleta destaque 2024 branca leve"
     },
     {
       name: "Robisson Filho",
-      image: "/img/nikolasMedalhas.jpeg",
-      achievements: "Bicampeã Brasileira, Medalha de Prata Pan-Americano"
+      image: "/img/graduacao02.jpeg",
+      achievements: "Campeão categia branca leve Sergipe"
     },
     {
       name: "Felipe Souza",
-      image: "/img/nikolasMedalhas.jpeg",
-      achievements: "Campeão Estadual, 3x Campeão Regional"
+      image: "/img/graduacao01.jpeg",
+      achievements: "Gué"
     },
     {
       name: "ketilly seila",
-      image: "/img/nikolasMedalhas.jpeg",
-      achievements: "Campeã Sul-Americana, Medalha de Ouro CBJJ"
+      image: "/img/graduacao03.jpeg",
+      achievements: "Atual campeã categoria branca leve"
     },
     {
       name: "Nikolas Ferreira",
       image: "/img/nikolasMedalhas.jpeg",
-      achievements: "3x Medalha de Ouro Estadual, Campeão Nacional Novatos"
+      achievements: "Atleta do Ano 2024 Juvenil categoria ate 74kg"
     }
   ];
 
