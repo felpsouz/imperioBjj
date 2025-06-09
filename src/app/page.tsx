@@ -393,7 +393,9 @@ const Footer = () => {
   );
 };
 
+
 // Main App Component
+
 export default function ImperioJiuJitsuApp() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -429,40 +431,41 @@ export default function ImperioJiuJitsuApp() {
       achievements: "Atleta do Ano 2024 Juvenil categoria ate 74kg"
     }
   ];
-
+  
   // Dados das conquistas
   const achievements: Achievement[] = [
     {
-      title: "Liga Sergipana 2024",
-      //date: "Dezembro 2023",
+      title: "Liga Sergipana",
+      date: "2024",
       description: "Foram 4 etapas, 9 atletas participando, 22 medalhas. 17 de ouro, 3 de prata e 2 de bronze"
     },
     {
-      title: "Circuito Sergipano 2024",
-      //date: "Outubro 2023",
+      title: "Circuito Sergipano",
+      date: "2024",
       description: "Participação de 12 atletas com 8 pódios, destacando a força da nossa equipe."
     },
     {
       title: "Copa Pódio",
-      //date: "Julho 2023",
+      date: "2024",
       description: "Com 100% de aproveitamento, todos os atletas participantes garantiram o primeiro lugar no pódio."
     },
     {
       title: "Copa Tuchê",
-      //date: "Maio 2023",
+      date: "2023",
       description: "Domínio absoluto com 15 medalhas e título de melhor equipe do torneio."
     },
     {
-      title: "Circuito Alagoano 2024",
-      //date: "Abril 2023",
+      title: "Circuito Alagoano",
+      date: "2024",
       description: "Três atletas saíram para realizar o sonho de competir fora do estado e trouxeram medalhas de ouro em suas bagagens."
     },
     {
       title: "Norte Nordeste",
-      //date: "Fevereiro 2023,
+      date: "Fevereiro 2024",
       description: "5 medalhas de ouro, 3 de prata e 7 de bronze, conquistando o 1º lugar geral por equipes."
     }
   ];
+  
 
   return (
     <div className="relative min-h-screen font-sans">
@@ -497,7 +500,8 @@ export default function ImperioJiuJitsuApp() {
           </div>
         </section>
 
-        {/* Athletes Section */}
+        {/* 
+        Athletes Section 
         <section id="atletas" className="px-4 py-16 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-center text-white flex items-center justify-center">
@@ -507,6 +511,7 @@ export default function ImperioJiuJitsuApp() {
             <AthleteCarousel athletes={athletes} />
           </div>
         </section>
+        */}
 
         {/* Contact Section */}
         <ContactSection />
