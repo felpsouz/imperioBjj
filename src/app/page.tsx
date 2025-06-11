@@ -60,7 +60,6 @@ const MobileMenu = ({ isOpen, toggleMenu }: { isOpen: boolean; toggleMenu: () =>
         <a href="#sobre" className="text-white text-xl hover:text-blue-300 transition-colors" onClick={toggleMenu}>Sobre</a>
         <a href="#professor" className="text-white text-xl hover:text-blue-300 transition-colors" onClick={toggleMenu}>Professor</a>
         <a href="#conquistas" className="text-white text-xl hover:text-blue-300 transition-colors" onClick={toggleMenu}>Conquistas</a>
-        <a href="#atletas" className="text-white text-xl hover:text-blue-300 transition-colors" onClick={toggleMenu}>Atletas</a>
         <a href="#contato" className="text-white text-xl hover:text-blue-300 transition-colors" onClick={toggleMenu}>Contato</a>
       </nav>
     </div>
@@ -75,7 +74,7 @@ const HeroSection = () => {
 
   return (
     <section className="px-4 py-20 sm:px-6 lg:px-8 flex flex-col items-center justify-center text-center">
-      <h2 className="text-5xl font-bold mb-6 text-white">Bem-vindo ao Império Jiu-Jitsu</h2>
+      <h2 className="text-5xl font-bold mb-6 text-white">Bem-vindo a Escola Império Jiu-Jitsu</h2>
       <p className="text-xl max-w-3xl mb-10 text-gray-200">
         Formando campeões dentro e fora dos tatames desde 2010. 
         Venha fazer parte da nossa família e transforme sua vida através do Jiu-Jitsu.
@@ -260,7 +259,7 @@ const AboutSection = () => {
         <div className="flex flex-col md:flex-row gap-8">
           <div className="md:w-1/2 text-white">
             <p className="text-lg mb-4">
-              Fundado em 2010 pelo Mestre Iuri Marcos, o CT Império Jiu-Jitsu nasceu com a missão de transformar vidas através do Jiu-Jitsu brasileiro. O que começou como um pequeno espaço com apenas alguns alunos, hoje é um dos centros de treinamento mais respeitados de Sergipe.
+              Fundado em 2018 pelo Mestre Iuri Marcos, o CT Império Jiu-Jitsu nasceu com a missão de transformar vidas através do Jiu-Jitsu brasileiro. O que começou como um pequeno espaço com apenas alguns alunos, hoje é um dos centros de treinamento mais respeitados de Sergipe.
             </p>
             <p className="text-lg mb-4">
               Nossa filosofia se baseia não apenas na formação de lutadores, mas também de cidadãos. Acreditamos que o Jiu-Jitsu é muito mais que uma arte marcial, é um caminho para o desenvolvimento físico, mental e espiritual.
@@ -344,7 +343,7 @@ const ContactSection = () => {
     </div>
     <div className="text-left text-black">
       <p className="mb-4">
-        Av. Rosemary Vieira de Jesus, 39 - Marcos Freire II<br />
+        Av. José Carlos Magno França, 41 - Marcos Freire II<br />
         Nossa Senhora do Socorro - SE<br />
         CEP: 49160-000
       </p>
