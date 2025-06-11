@@ -29,7 +29,6 @@ const Header = ({ toggleMenu }: { toggleMenu: () => void }) => {
         <a href="#sobre" className="hover:text-blue-300 transition-colors">Sobre</a>
         <a href="#professor" className="hover:text-blue-300 transition-colors">Professor</a>
         <a href="#conquistas" className="hover:text-blue-300 transition-colors">Conquistas</a>
-        <a href="#atletas" className="hover:text-blue-300 transition-colors">Atletas</a>
         <a href="#contato" className="hover:text-blue-300 transition-colors">Contato</a>
       </nav>
       <button 
