@@ -75,7 +75,7 @@ const HeroSection = () => {
     <section className="px-4 py-20 sm:px-6 lg:px-8 flex flex-col items-center justify-center text-center">
       <h2 className="text-5xl font-bold mb-6 text-white">Bem-vindo a Escola Império Jiu-Jitsu</h2>
       <p className="text-xl max-w-3xl mb-10 text-gray-200">
-        Formando campeões dentro e fora dos tatames desde 2010. 
+        Formando campeões dentro e fora dos tatames desde 2018. 
         Venha fazer parte da nossa família e transforme sua vida através do Jiu-Jitsu.
       </p>
       <button 
